@@ -4,6 +4,6 @@ string senhaDigitada, permissãoAcesso;
 Console.Write("olá, professor, porfavor digite sua senha...:");
 senhaDigitada = Console.ReadLine()!;
 
- permissãoAcesso= senhaDigitada == senhaCorreta?"permitido":"negatdo";
+ permissãoAcesso= senhaDigitada == senhaCorreta?"permitido":"negado";
 
 Console.WriteLine($"Acesso { permissãoAcesso }");
